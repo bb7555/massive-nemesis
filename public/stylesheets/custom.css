@@ -1,0 +1,15 @@
+body
+{
+	color: #111;
+	background-color: #c9c8c3;
+}
+
+img[src="/images/me.jpeg"]
+{
+	width: 150px;
+}
+
+img[src="/images/HTML5_Badge_512.png"]
+{
+	height: 150px;
+}
