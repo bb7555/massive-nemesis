@@ -7,9 +7,17 @@ body
 img[src="/images/me.jpeg"]
 {
 	width: 150px;
+	float: right;
 }
 
 img[src="/images/HTML5_Badge_512.png"]
 {
 	height: 150px;
+	margin-left: 43px;
+}
+
+img[src="/images/android.png"]
+{
+	position: absolute;
+	top: 0px;
 }
