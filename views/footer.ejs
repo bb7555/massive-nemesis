@@ -2,17 +2,7 @@
 
           <div class="span4">
             <div class="well sidebar-nav">
-              <ul class="nav nav-list">
-                <li class="nav-header">categories</li>
-                <% getCategories().forEach(function(cat) { %>
-                  <li><a href="<% categoryURL(cat) %>"><%= cat %></a></li>
-                <% }) %>
-
-                <li class="nav-header">tags</li>
-                <% getTags().forEach(function(tag) { %>
-                  <li><a href="<% tagURL(tag) %>"><%= tag %></a></li>
-                <% }) %>
-              </ul>
+              
             </div>
           </div>
 
