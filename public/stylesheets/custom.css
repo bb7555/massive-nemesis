@@ -4,6 +4,22 @@ body
 	background-color: #c9c8c3;
 }
 
+body > .navbar a.brand, a
+{
+	color: #E34C26;
+}
+
+a:hover
+{
+	color: #A4C739;
+}
+
+span.label-info
+{
+	background-color: #A4C739;
+	color: #000;
+}
+
 img[src="/images/me.jpeg"]
 {
 	width: 150px;
@@ -13,11 +29,12 @@ img[src="/images/me.jpeg"]
 img[src="/images/HTML5_Badge_512.png"]
 {
 	height: 150px;
-	margin-left: 43px;
+	margin-left: 150px;
 }
 
 img[src="/images/android.png"]
 {
 	position: absolute;
-	top: 0px;
+	top: 30px;
+	margin-left: 50px;
 }
