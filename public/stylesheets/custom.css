@@ -2,11 +2,24 @@ body
 {
 	color: #111;
 	background-color: #c9c8c3;
+
 }
 
 body > .navbar a.brand, a
 {
 	color: #E34C26;
+}
+
+footer
+{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+footer p
+{
+	display: inline-block;
+	margin-left: 30px;
 }
 
 a:hover
@@ -34,4 +47,10 @@ img[src="/images/HTML5_Badge_512.png"]
 img[src="/images/android.png"]
 {
 	height: 150px;
+}
+
+img[src="/images/nemesis.png"]
+{
+	height:300px;
+	display:inline-block;
 }
