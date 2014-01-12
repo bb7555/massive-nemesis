@@ -11,7 +11,7 @@ Over the past year, responsive design has become quite the hot topic in the web 
 
 ## What is responsive design? ##
 
-Let’s just get right into it: Believe it or not, the Treehouse blog that you’re reading this article on is actually a responsive design! To see it in action, open this article on a desktop browser and slowly make the browser thinner and wider. You should see the layout magically adjust itself to more comfortably fit the new width of the browser, even if you make the page as skinny as the resolution of a mobile phone.
+Let’s just get right into it: To see responsive design in action, open this article on a desktop browser and slowly make the browser thinner and wider. You should see the layout magically adjust itself to more comfortably fit the new width of the browser, even if you make the page as skinny as the resolution of a mobile phone.
 
 It’s hard to talk about responsive design without mentioning its creator, Ethan Marcotte. If you haven’t read his seminal article about responsive web design, I highly recommend you check it out (seriously, this is required reading, see below). In the article, Ethan discusses all the key ideas that form responsive web design; and that’s really what responsive design is, technically. It’s not a single piece of technology, but rather, a set of techniques and ideas that form a whole. This is one of the main sources of confusion, and in a moment we’ll break things down and take a look at each part.
 
