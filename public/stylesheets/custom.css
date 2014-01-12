@@ -54,3 +54,9 @@ img[src="/images/nemesis.png"]
 	height:300px;
 	display:inline-block;
 }
+img[src="/images/tux.png"]
+{
+	height:300px;
+	display:inline-block;
+	float: right;
+}
