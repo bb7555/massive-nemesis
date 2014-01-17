@@ -41,7 +41,8 @@ This will provision your environment and you will be ready to develop your first
 
 Let’s begin with a simple server, which will deliver the application's HTML page, and then continue with the more interesting bits: the real time communication. Create an index.js file with the following core expressjs code:
 
- ```var express = require("express");
+```
+var express = require("express");
 var app = express();
 var port = 3700;
  
@@ -50,7 +51,8 @@ app.get("/", function(req, res){
 });
  
 app.listen(port);
-console.log("Listening on port " + port);```
+console.log("Listening on port " + port);
+```
 
 Above, we’ve created an application and defined its port. Next, we registered a route, which, in this case, is a simple GET request without any parameters. For now, the route’s handler simply sends some text to the client. Finally, of course, at the bottom, we run the server. To initialize the application, from the console, execute: `nodejs index`
 
