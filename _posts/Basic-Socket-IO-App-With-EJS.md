@@ -98,11 +98,13 @@ Because we will use an external JavaScript file that will hold the front-end log
 
 So far so good; we have a server that successfully responds to GET requests. Now, it’s time to add Socket.io integration. Change this line:
 
-'app.listen(port);''
+`app.listen(port);`
 
 to:
 
-'''var io = require('socket.io').listen(app.listen(port));```
+'''
+var io = require('socket.io').listen(app.listen(port));
+```
 
 Above, we passed the ExpressJS server to Socket.io. In effect, our real time communication will still happen on the same port.
 
