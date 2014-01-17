@@ -102,7 +102,7 @@ So far so good; we have a server that successfully responds to GET requests. Now
 
 to:
 
-'''
+```
 var io = require('socket.io').listen(app.listen(port));
 ```
 
