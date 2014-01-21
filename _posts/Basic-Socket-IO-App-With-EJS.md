@@ -122,3 +122,5 @@ io.sockets.on('connection', function (socket) {
 The object, socket, which is passed to your handler, is actually the socket of the client. Think about it as a junction between your server and the user's browser. Upon a successful connection, we send a welcome type of message, and, of course, bind another handler that will be used as a receiver. As a result, the client should emit a message with the name, send, which we will catch. Following that, we simply forward the data sent by the user to all other sockets with io.sockets.emit.
 
 In the next post, we will finish up using EJS and javascript to make this chat app work.
+
+Part 2 here: http://www.cliffbarnes.com/myposts/Finish-up-Socket-IO-App-With-EJS
