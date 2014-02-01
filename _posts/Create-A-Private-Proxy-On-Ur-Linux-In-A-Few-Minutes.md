@@ -18,9 +18,9 @@ This is how to setup a pretty good private proxy server on Amazon Elastic Comput
 First thing you will need is an AWS account. Go to the AWS Portal and sign up.
 You will need a credit card to complete this process. But this is Amazon. Doesn't everyone have an Amazon account?
 
-If your too young to have a credit card you're reading this, go study something else. ;)
+If you are too young to have a credit card AND you're reading this, go study something else. ;)
 
-Why AWS? It is my preference, they commit to 99.95% uptime and they offer 750 hours of Amazon EC2 Micro Instance usage as part of their free usage tier. But a Pandora's Box of cloud service exist out there (and more and more everyday).
+Why AWS? It is my preference, they commit to 99.95% uptime and they offer 750 hours of Amazon EC2 Micro Instance usage as part of their free usage tier. But, an open Pandora's Box of cloud services exist out there (and more and more everyday).
 
 Although this post primarily uses AWS, these steps can easily be replicated on any VPS hosting service offered all over the internet, as well as LANs and other 'creative set-ups' (b-careful kiddiez)
 
@@ -34,11 +34,11 @@ Once your instance has been started and is up and running, take note of the Publ
 
 ###3. SSH'n and Tinyproxy###
 
-This tut assumes you are using Ubunut or at least a POSIX system of some sort. If you are on Windows, install Linux immediately. If you dont wanna, then Putty or PowerShell should do the trick for creating the web tunnel.
+This tut assumes you are using Ubunut 12+ or at least a POSIX system of some sort. If you are on Windows, install Linux immediately. If you dont wanna, then Putty or PowerShell should do the trick for creating the web tunnel.
 
 Open your terminal and make sure you are using the PEM key pair you downloaded when you ran the wizard above. Make this command: `ssh -i ~/.ssh/ur-kewl-proxy.pem ubuntu@ec2-your-ip-address-here.compute-1.amazonaws.com`
 
-You should connect to you EC2 instace. Now, install TinyProxy:
+You should connect to your EC2 instace. Now, install TinyProxy:
 
 `sudo apt-get install tinyproxy`
 
@@ -55,13 +55,19 @@ Open the terminal and type to tunnel:
 Go to 'system settings'. Don't know what that is, search for in in the Unity Dashboard. Click the network icon. (See Below)
 
 <img src="/images/network.png" />
-
+<br />
 Then click the network tag, set proxy to 'manual' and add the information you see there. (See Below)
-
+<br />
 <img src="/images/proxy.png" />
+
 
 That's it, open your web browser and google 'what is my ip'. Big G should give you the IP of your Amazon EC2 instance.
 
 ###What's the Point?###
 
 Well, kiddiez, that is for me to know and you to figure out. Be careful with this info. This has applications across a wide range of services an app or website may need for remote communications, for one example. It could be used to switch to a Mexican IP, for instance, to test how a web site may act when it recognizes an IP from a particulary country. Many good uses out there.
+
+
+###Credits and Thanks###
+
+Thanks to Frankhq.io for the inspiration (and the awesome tag line haha)
