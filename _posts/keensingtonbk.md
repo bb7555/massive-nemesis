@@ -17,7 +17,7 @@ The food pantry program at PS 179 is once a month. But it's a lot of food and pa
 
 300 kids * 35 lbs. of food = 7000 lbs. or 3.5 tons of food. That's a lot of food and work, even it was a light month due to the weather. What's a heavy month?
 
-So long story short, This is pretty much brazen propaganda for Food Bank NYC. Any and corporate sponsorship is greatly appreciated and thanked. And individual volunteerism is also good to. :-D
+So long story short, This is pretty much brazen propaganda for Food Bank NYC. Any and corporate sponsorship is greatly appreciated and thanked. And individual volunteerism is also good too. :-D
 
 ###Credits and Thanks###
 
