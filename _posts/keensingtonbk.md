@@ -2,7 +2,7 @@
     "title"    : "The Consequences of The Last 40 Years",
     "tags"     : [ "poverty", "civil rights", "inequality", "social science case study", "urban sociology" ],
     "category" : "Social Science",
-    "date"     : "02-02-2014"
+    "date"     : "02-05-2014"
 }}} 
 
 I'm just gonna let you know I was terrified  -- 900+ persons aged 4-11. 89% of them are on government assistance to eat and 95% are under threat of food insecurity. I had to help feed them.
