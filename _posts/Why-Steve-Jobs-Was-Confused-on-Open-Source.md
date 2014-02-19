@@ -8,7 +8,7 @@ It's not often I speak with techies, even people who are leads in their respecti
 
 The late Steve Jobs in 2010 famously went off on Google about their 'disingenuous' open source project, Android. When pressed on what he meant by this, his only defense was that Android was 'fragmented', meaning that as criteria for NOT being open source. For real, Apple?
 
-Jobs then went on to state that Windows was the most open source platform. When pressed on that, he backed off, but obviously sees open source being a monolithic code base controlled by a large corporation. If that is open source, then I am afraid I cannot support lend my of open source philosophies.
+Jobs then went on to state that Windows was the most open source platform. When pressed on that, he backed off, but obviously sees open source being a monolithic code base controlled by a large corporation. If that is open source, then I am afraid I cannot lend my support to open source philosophies.
 
 This is obviously wrong, but it stands to reason the confusion that many Apple acolytes I speak with have about the concept or where Apple or iOS sits in the whole spectrum.
 
