@@ -2,9 +2,13 @@
 
           <div class="span4">
           <img src="https://pbs.twimg.com/media/BgBKcRzCUAA8-jC.jpg" alt="Issac Asimov: The internet is serious biz." />
-          <a class="twitter-timeline" href="https://twitter.com/twitterapi" data-widget-id="NM9BG9S1oUP5I8h1Bm3Ow">Tweets by @twitterapi</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
             <div class="well sidebar-nav">
+            <h4 class="nav-header">The Crazy Tweets I Make</h4>
+            <a class="twitter-timeline" href="https://twitter.com/barnes_cliff" data-widget-id="437873128941707264">Tweets by @barnes_cliff</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
               <ul class="nav nav-list">
                 <li class="nav-header">categories</li>
                 <% getCategories().forEach(function(cat) { %>
@@ -16,6 +20,7 @@
                   <li><a href="<%= tagURL(tag) %>"><%= tag %></a></li>
                 <% }) %>
               </ul>
+
             </div>
           </div>
 
