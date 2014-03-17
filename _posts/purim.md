@@ -6,7 +6,7 @@
 }}}
 It was warm enough for March in New York City, so I decided to go for long evening stroll. Besides seeing the usual pimps and hookers, wealthy spending their dollars, and all the other denizens, my main goal of mine was an old one -- to document the life of those who actually live in this place, who have no where else to go.
 
-It was the night of Purim. I think Google educated me on this holy day. It was encouraging to see as a passed several synagouges, the poor being given all sort of pragmatic things: hygeine items, backpacks, blankets, etc. Its such a shame, but what else could be done to solve the problem of poverty? This is simply a finger in the dyke.
+It was the night of Purim. I think Google educated me on this holy day. It was encouraging to see as I passed several synagouges, the poor being given all sort of pragmatic things: hygeine items, backpacks, blankets, etc. It's such a shame, but what else could be done to solve the problem of poverty? This is simply a finger in the dyke.
 
 <img src="/images/purim.png" alt="Street people getting blessed at Purim" />
 
