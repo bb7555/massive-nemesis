@@ -46,6 +46,15 @@ poet.init().then(function () {
 
 app.get('/', function (req, res) { res.render('index');});
 
+//app controllers
+var feed = require('./controllers/feed.js');
+app.get('/clicks', feed.clicks);
+app.get('/conversions', feed.conversions);
+app.get('/clicksUpdate', feed.clicksUpdate);
+app.get('/conversionsUpdate', feed.conversionsUpdate);
+
+app.get('/dashboard', function (req, res) { res.render('dashboard');});
+
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
