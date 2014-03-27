@@ -4,7 +4,7 @@
     "category" : "Open Source",
     "date"     : "02-19-2014"
 }}}
-It's not often I speak with techies, even people who are leads in their respectives teams who seem to have a bit of confusion about what open source is or how it relates to operating systems, especially vis-a-vis Android/Linux and iOS. The ignorance of what constitutes Open Source, especially when it comes to Apple, is astounding.
+It's not often I speak with techies, even people who are leads in their respective teams who seem to have a bit of confusion about what open source is or how it relates to operating systems, especially vis-a-vis Android/Linux and iOS. The ignorance of what constitutes Open Source, especially when it comes to Apple, is astounding.
 
 The late Steve Jobs in 2010 famously went off on Google about their 'disingenuous' open source project, Android. When pressed on what he meant by this, his only defense was that Android was 'fragmented', meaning that as criteria for NOT being open source. For real, Apple?
 

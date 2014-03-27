@@ -34,11 +34,11 @@ Once your instance has been started and is up and running, take note of the Publ
 
 ###3. SSH'n and Tinyproxy###
 
-This tut assumes you are using Ubunut 12+ or at least a POSIX system of some sort. If you are on Windows, install Linux immediately. If you dont wanna, then Putty or PowerShell should do the trick for creating the web tunnel.
+This tut assumes you are using Ubuntu 12+ or at least a POSIX system of some sort. If you are on Windows, install Linux immediately. If you dont wanna, then Putty or PowerShell should do the trick for creating the web tunnel.
 
 Open your terminal and make sure you are using the PEM key pair you downloaded when you ran the wizard above. Make this command: `ssh -i ~/.ssh/ur-kewl-proxy.pem ubuntu@ec2-your-ip-address-here.compute-1.amazonaws.com`
 
-You should connect to your EC2 instace. Now, install TinyProxy:
+You should connect to your EC2 instance. Now, install TinyProxy:
 
 `sudo apt-get install tinyproxy`
 
@@ -65,7 +65,7 @@ That's it, open your web browser and google 'what is my ip'. Big G should give y
 
 ###What's the Point?###
 
-Well, kiddiez, that is for me to know and you to figure out. Be careful with this info. This has applications across a wide range of services an app or website may need for remote communications, for one example. It could be used to switch to a Mexican IP, for instance, to test how a web site may act when it recognizes an IP from a particulary country. Many good uses out there.
+Well, kiddiez, that is for me to know and you to figure out. Be careful with this info. This has applications across a wide range of services an app or website may need for remote communications, for one example. It could be used to switch to a Mexican IP, for instance, to test how a web site may act when it recognizes an IP from a particularly country. Many good uses out there.
 
 
 ###Credits and Thanks###
