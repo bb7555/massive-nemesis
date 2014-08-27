@@ -7,7 +7,7 @@
 
 Recently, I worked on a project where we needed to translate data from an external XML feed into data for a small Google Maps application integration on a web app. If I had written this web app in PHP, the solution would be to use wget, fopen, or cURL. But this time I used Node JS to make an internal API of the XML feed for my ajax-driven map application. I found no tutorial on this process in Node JS, other than the excellent NodeJS documentation. But the power of the http request library in Node is very powerful. I have set off to write a tut about my narrow need -- creating an internal XML feed of an external data source for my AJAX-driven module.
 
-This tut expects you already have a grasp of the basics of Node JS. I will not be going into any of the devlopment operations or set up. This example requires express and EJS and assumes you can provision these dependencies into your app or use equivalent variants -- e.g. Jade instead of EJS, etc.
+This tut expects you already have a grasp of the basics of Node JS. I will not be going into any of the development operations or set up. This example requires express and EJS and assumes you can provision these dependencies into your app or use equivalent variants -- e.g. Jade instead of EJS, etc.
 
 Below is the stripped app.js in the top level of the app's directory. As you can see we call all our necessary dependencies and set the express instance to a variable called `app`.
 
@@ -49,7 +49,7 @@ Basically, as with all express apps in node we have a request and response varia
 
 As the result object triggers the 'data' event, we can pass the buffered data to our web app's output as raw text `res.write(chunk)`
 
-Finally, just as an aside, we do not have to have the 'end' event with the get method. It is required for the post method, but I included it as a good practice. One could add other expection handling here, too. But, for the sake of simplity of this tut I will not include it.
+Finally, just as an aside, we do not have to have the 'end' event with the get method. It is required for the post method, but I included it as a good practice. One could add other expectation handling here, too. But, for the sake of simplicity of this tut I will not include it.
 
 ```
 // external feed controller
@@ -69,7 +69,7 @@ exports.XMLFeed = function(req, res){
 
 ```
 
-Last is the view page that pulls the data via AJAX. This example is a hybrid of raw javascript and jQuery. I use raw javscript to request the XML from our web app at '/xml'. I, then, use jQuery to parse the XML and the incredibally well performing `each()` method in jQuery to interate over all the data for our map.
+Last is the view page that pulls the data via AJAX. This example is a hybrid of raw javascript and jQuery. I use raw javascript to request the XML from our web app at '/xml'. I, then, use jQuery to parse the XML and the incredibly well performing `each()` method in jQuery to iterate over all the data for our map.
 
 ```
 
