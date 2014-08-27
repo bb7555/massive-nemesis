@@ -104,7 +104,7 @@ First, we have to use the 'new' reserved word to construct our class-based objec
 
 But wait there's more. Linkage and object prototypes. When we create an object from a function (or use a javascript 'class'), the prototype property does not exist. This can cause tons of headaches, especially in large code bases where we may need to keep track of many complex objects, methods, and all their linkages.
 
-Using object literals, especially in the face of this confusing classical pattern in javascript pattern, seems clearly to be a bettern choice in nearly all situations. To put it another way, if you insist on using javascript like java, then you should use java and its inflexible classical patterns, not javascript.
+Using object literals, especially in the face of this confusing classical pattern, seems clearly to be a better choice in nearly all situations. To put it another way, if you insist on using javascript like java, then you should use java and its inflexible classical patterns, not javascript.
 
 ###The Cool Stuff In ECMA6###
 
